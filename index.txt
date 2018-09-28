@@ -89,6 +89,24 @@
 				<a href="map.html">Как нас найти?</a><br>
 				Телефон: +7-912-233-12-12
 			</p>
+			<div class="footer-social">
+				<b>Давайте дружить</b>
+				<ul>
+					<li>
+						<a class="button-social" href="#">Вконтакте</a>
+					</li>
+						<a class="button-social" href="#">Инстограмм</a>
+					</li>
+						<a class="button-social" href="#">Фейсбук</a>
+					</li>
+				</ul>
+			</div>
+			<P>
+				<b>
+					Разработано:
+				</b>
+				<a class="button" href="#">Micvant</a>
+			</P>
 		</footer>
 	</body>
 </html>
