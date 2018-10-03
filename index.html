@@ -52,7 +52,7 @@
 					</li>
 				</ul>
 			</section>
-			<div class="idex-columns">
+			<div class="index-columns">
 				<section class="news">
 					<h2>Новости</h2>
 					<ul class="news-list">
@@ -74,48 +74,50 @@
 					<button class="button gallery-button gallery-button-next" type="button">Вперед</button>
 				</section>
 			</div>
-			<section class="contacts"> 
-				<h2>Контакты</h2>
-				<P>
-					Барбершоп "Бородинский"<br>
-					Адрес: г. Благовещенск ул. Ленина 132<br>
-					Телефон: +7-912-233-12-12						
-				</P>
-				<p>
-					Время работы:<br>
-					пн-пт: с 8:00 до 17:00<br>
-					сб-вс: Выходной
-				</p>
-				<a class="button" href="map.html">Как проехать</a>
-				<a class="button" href="contacts.html">Обратная связь</a>
-			</section>
-			<section class="appointment">
-				<h2>Записаться</h2>
-				<p class="appointment-info">
-					Укажите желаемую дату и время мы с вами свяжемся
-				</p>
-				<!-- Форма для отправки ифнормации-->
-				<form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
-					<p class="appointment-item">
-						<label for="appointment-date">Дата</label> 
-						<input id="appointment-date" type="text" name="date" value="" placeholder="00.00.18">
+			<div class="index-columns">
+				<section class="contacts"> 
+					<h2>Контакты</h2>
+					<P>
+						Барбершоп "Бородинский"<br>
+						Адрес: г. Благовещенск ул. Ленина 132<br>
+						Телефон: +7-912-233-12-12						
+					</P>
+					<p>
+						Время работы:<br>
+						пн-пт: с 8:00 до 17:00<br>
+						сб-вс: Выходной
 					</p>
-					<p class="appointment-item">
-						<label for="appointment-time">Время</label>
-						<input type="text" name="time" value="" placeholder="00:00" id="appointment-time">
+					<a class="button" href="map.html">Как проехать</a>
+					<a class="button" href="contacts.html">Обратная связь</a>
+				</section>
+				<section class="appointment">
+					<h2>Записаться</h2>
+					<p class="appointment-info">
+						Укажите желаемую дату и время мы с вами свяжемся
 					</p>
-					<p class="appointment-item">
-						<label for="appointment-name">Ваше Имя</label>
-						<input type="text" name="name" value="" placeholder="Имя" id="appointment-name">
-					</p>
-					<p class="appointment-item">
-						<label for="appointment-tel">Телефон</label>
-						<input type="tel" name="phone" value="" placeholder="+7-***-***-**-**" id="appointment-tel">
-					</p>
-					<button class="button" type="submit">Отправить</button>
-				</form>
-				<!-- Конец формы для отправки информации -->
-			</section>
+					<!-- Форма для отправки ифнормации-->
+					<form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+						<p class="appointment-item">
+							<label for="appointment-date">Дата</label> 
+							<input id="appointment-date" type="text" name="date" value="" placeholder="00.00.18">
+						</p>
+						<p class="appointment-item">
+							<label for="appointment-time">Время</label>
+							<input type="text" name="time" value="" placeholder="00:00" id="appointment-time">
+						</p>
+						<p class="appointment-item">
+							<label for="appointment-name">Ваше Имя</label>
+							<input type="text" name="name" value="" placeholder="Имя" id="appointment-name">
+						</p>
+						<p class="appointment-item">
+							<label for="appointment-tel">Телефон</label>
+							<input type="tel" name="phone" value="" placeholder="+7-***-***-**-**" id="appointment-tel">
+						</p>
+						<button class="button" type="submit">Отправить</button>
+					</form>
+					<!-- Конец формы для отправки информации -->
+				</section>
+			</div>
 		</main>
 		<footer class="main-footer">
 			<p class="footer-contacts">
@@ -132,7 +134,7 @@
 					<li><a class="button-social" href="#">Фейсбук</a></li>
 				</ul>
 			</div>
-			<P>
+			<P class ="footer-copyright">
 				<b>Разработано:</b>
 				<a class="button" href="#">Micvant</a>
 			</P>
