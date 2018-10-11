@@ -156,6 +156,11 @@ a {
 	width: 368px;
 	height: 153px;
 }
+/*iem page*/
+.main-header-logo-item {
+	width: 111px;
+	height: 24px;
+}
 .main-navigation-wrapper {
 	width: 100%;
 	margin-bottom: 60px;
