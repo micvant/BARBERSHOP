@@ -78,6 +78,46 @@ a {
 	font-size: 14px;
 	line-height: 18px;
 }
+.catalog-category {
+	text-transform: none;
+}
+.catalog-item-price b{
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+
+	background-color: #e5e5e5;
+}
+.catalog-item-price .button {
+	line-height: 20px;
+	color: #fff;
+}
+.pagination-list {
+	list-style: none;
+}
+.pagination-item a {
+	color: #fff;
+	
+	background-color: #000;
+}
+.pagination-item a:hover,
+.pagination-item a:focus,
+.pagination-item a:active {
+	color: #663d15;
+}
+.pagination-item-current a{
+	color: #000;
+	
+	background-color: #fff;
+}
+.pagination-item-current a:hover,
+.pagination-item-current a:focus,
+.pagination-item-current a:active {
+	color: #000;
+
+	background-color: #fff;
+}
+
 /*Finish Catalog.html*/
 .button {
 	/*Параметры от родителя дл шрифта*/
@@ -97,15 +137,71 @@ a {
 	background-color: #663d15;
 }
 .main-navigation {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
 	font-size: 16px;
 	line-height: 20px;
 	color: #fff;
+}
+}
+.container {
+	width: 900px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.main-header-logo {
+	order: 2;
+	width: 368px;
+	height: 153px;
+}
+.main-navigation-wrapper {
+	width: 100%;
+	margin-bottom: 60px;
 
 	background-color: #000;
 }
-.size-navigation,
-.user-navigation {
+.main-navigation-wrapper .container {
+	display: flex;
+	justify-content: space-between;
+}
+.site-navigation {
+	width: 620px;
+	margin: 0;
+	padding: 0;
+	
+	display: flex;
+	justify-content: space-between;
+
 	list-style: none;
+	min-height: 70px;
+}
+.user-navigation {
+	width: 140px;
+	margin: 0;
+	padding: 0;
+	background-repeat: 
+	list-style: none;
+	min-height: 70px;
+}
+.features-list {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+	min-height: 170px;
+}
+.features-item{
+	width: 300px;
+	text-align: center;
+	min-height: 170px;
+}
+.features-item h3 {
+	font-size: 30px;
+	line-height: 42px;
 }
 .site-navigation  a,
 .user-navigation a {
@@ -117,20 +213,14 @@ a {
 .user-navigation a:focus {
 	background-color: #242424;
 }
-.features-list {
-	list-style: none;
-}
-.features-item {
-	text-align: center;
-}
-.features-item h3 {
-	font-size: 30px;
-	line-height: 42px;
-}
 .index-columns {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 80px;
+	margin-bottom: 35px;
 	color: #000;
 
-	background-color: #f8f5f2;
+	background-color: #fff;
 	background-image: url("../img/pattern-light.jpg");
 	background-position: 0 0;
 	background-repeat: repeat;
@@ -139,15 +229,31 @@ a {
 	font-size: 30px;
 	line-height: 42px;
 }
+.news {
+	width: 380px;
+	min-height: 315px;
+}
 .news-list {
 	list-style: none;
 }
 .new-list time {
 	text-transform: none;
 }
+.galery {
+	width: 300px;
+	min-height: 315px;
+}
 .galery-content {
 	background-color: #ccc;
 	border: 7px solid #fff;
+}
+.contacts{
+	width: 380px;
+	min-height: 295px;
+}
+.appointment {
+	width: 300px;
+	min-height: 340px;
 }
 .appointment-item input {
 	/*Параметры от родителя дл шрифта*/
@@ -188,12 +294,26 @@ a {
 }
 /*Finish Catalog-item.html*/
 .main-footer {
+	margin-top: 65px;
 	color: #fff;
+	min-height: 180px;
+	padding: 60px 0;
 
 	background-color: #212121;
 	background-image: url(../img/pattern-dark.jpg);
 	background-position: 0 0;
 	background-repeat: repeat;
+}
+.main-footer .container {
+	display: flex;
+}
+.footer-contacts {
+	width: 320px;
+	margin: 0;
+	margin-right: 80px;
+
+	min-height: 100px;
+
 }
 .footer-contacts a {
 	color: #fff;
@@ -204,6 +324,8 @@ a {
 	text-decoration: none;
 }
 .footer-social {
+	width: 145px;
+	min-height: 100px;
 	text-align: center;
 }
 .footer-social ul {
@@ -213,6 +335,10 @@ a {
 	color: #fff;
 }
 .footer-copyright {
+	width: 150px;
+	margin: 0;
+	margin-left: auto;
+	min-height: 100px;
 	text-align: center;
 }
 .footer-copyright .button:hover,
